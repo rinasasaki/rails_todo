@@ -1,0 +1,6 @@
+<h1>indexページです。</h1>
+
+<% @container.each do |todo| %>
+<p>タイトル<%= todo.title %></p>
+<p>内容<%= todo.content %></p>
+<% end %>
